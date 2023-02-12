@@ -32,7 +32,6 @@ def find_mismatch(text):
         return "Success"
 pass
 
-
 def main():
     text = input()
     mismatch = find_mismatch(text)
