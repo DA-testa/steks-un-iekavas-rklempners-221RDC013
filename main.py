@@ -26,10 +26,10 @@ def find_mismatch(text):
                 return i + 1
             pass
 
-            if opening_brackets_stack:
-                return opening_brackets_stack[0].position + 1
-            else:
-                return "Success"
+    if opening_brackets_stack:
+        return opening_brackets_stack[0].position + 1
+    else:
+        return "Success"
             #pass
 
 
